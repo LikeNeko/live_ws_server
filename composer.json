@@ -1,0 +1,20 @@
+{
+    "require": {
+        "easyswoole/easyswoole": "3.4.*",
+        "easyswoole/socket": "^1.1",
+        "easyswoole/task": "^1.1",
+        "easyswoole/hot-reload": "^0.1.2",
+        "easyswoole/orm": "^1.4",
+        "easyswoole/redis": "^1.1",
+        "easyswoole/linux-dash": "^1.0",
+        "fuelphp/event": "dev-master"
+    },
+    "require-dev": {
+        "easyswoole/swoole-ide-helper": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
